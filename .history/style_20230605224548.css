@@ -1,0 +1,175 @@
+body{
+    height: 100vh;
+    background:#434343 ;
+    overflow-y: hidden;
+
+    /* display: flex; */
+}
+
+h1,h4{
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 150px;
+}
+
+h4{
+    margin-left: 159px;
+}
+
+.line{
+    width: 800px;
+    height: 3px;
+    background-color: rgb(53, 53, 52);
+    position: absolute;
+  
+}
+.line{
+    top: 40%;
+    /* right: 35%; */
+    right: 40%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .line2{
+    top: 30%;
+    left: 10%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.line3{
+    width: 269px;
+    top: 35%;
+    left: 29%;
+    transform: rotate(16deg);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.line .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(97, 97, 93);
+}
+
+.linebetween{
+    height: 80%;
+    width: 3px;
+    background-color: rgb(53, 53, 52);
+    position: absolute;
+    top: 50%;
+    right: 38%;
+
+    transform: translateY(-50%);
+
+
+
+
+}
+.line1,.lineb2{
+   width: 10px;
+   height: 10px;
+   background-color: rgb(97, 97, 93);
+   border-radius: 50%;
+
+   position: absolute;
+   right: 37.8%;
+   top: 39%;
+}
+
+
+
+.menubar i{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.largeimg-container{
+    width: 60%;
+    height: 400px;
+    /* background-color:rgb(156, 156, 219) ; */
+
+    transform: translateY(50%);
+
+    overflow-x: auto;
+
+   
+
+}
+
+.img{
+   padding: 10px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ img{
+   width: 150px;
+   padding: 10px;
+   border: 1px solid #f4f4f4;
+
+}
+
+.show{
+    width: 250px;
+    border: 1px solid #333;
+    transition: all .5s;
+}
+.show:hover{
+    opacity: .9;
+}
+
+.smallimg-container{
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    /* background-color: rgb(124, 201, 218); */
+    background: #403d3d;
+
+    display: flex;
+    justify-content: center;
+   
+
+    
+}
+
+.simg{
+    display: grid;
+    place-items:center ;
+}
+
+.dnone{
+    display: none;
+}
+
+.smallimg{
+    width: 90%;
+    /* height: 90%; */
+    margin: auto;
+
+    display: block;
+
+    /* position: absolute; */
+}
+
+.text{
+    width: 400px;
+    color: #f4f4f4;
+  text-align: center;
+  display: none;
+}
+
+.textblock{
+    display: block;
+}
