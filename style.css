@@ -1,4 +1,3 @@
-
 body{
     height: 100vh;
     background:#434343 ;
@@ -26,7 +25,7 @@ h4{
 .largeimg-container{
     width: 60%;
     height: 400px;
-    background-color:rgb(156, 156, 219) ;
+    /* background-color:rgb(156, 156, 219) ; */
 
     transform: translateY(50%);
 
@@ -63,7 +62,7 @@ img{
     position: absolute;
     right: 0;
     top: 0;
-    background-color: rgb(124, 201, 218);
+    /* background-color: rgb(124, 201, 218); */
 
     
 }
