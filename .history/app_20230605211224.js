@@ -16,11 +16,6 @@ function show(idx){
            curimg.classList.add("show");
 
         var getsmallimgs = document.querySelectorAll(".dnone");
-
-        var gettext = document.querySelectorAll('.text');
-
-
-
         getsmallimgs.forEach(function(cursm,cursmidx){
       
         if(curidx === cursmidx){
@@ -29,25 +24,10 @@ function show(idx){
             cursm.classList.remove("smallimg");
         }
         })  
-
-
-
-        gettext.forEach(function(curtxt,curtxtidx){
-            if(curidx === curtxtidx){
-                curtxt.classList.add('textblock')
-            }else{
-                curtxt.classList.remove('textblock')
-
-            }
-        })
-
-
+        
          
         }else{
             curimg.classList.remove("show")
         }
     })
 }
-
-
-
